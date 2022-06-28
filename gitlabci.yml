@@ -1,0 +1,8 @@
+deploy:
+  script:
+    sudo cp /home/gitlab-runner/builds/MC9Utbtc/0/yudiz_devops/dnd/abhinav_gitlab_practice/index.html /var/www/html
+  tags:
+    - gitlabrunner
+  only:
+    - main
+
